@@ -11,7 +11,6 @@ app.use(cors());
 app.use(express.json());
 
 // Define routes
-// app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/trips', require('./routes/tripRoutes'));
 app.use('/api/bookings', require('./routes/bookingRoutes')); // Add booking routes
